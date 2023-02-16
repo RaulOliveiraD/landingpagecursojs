@@ -69,6 +69,7 @@
     top: -3rem;
     left: -2rem;
     transform: rotate(5deg);
+    color: var(--secondary-color);
 }
 
 .gallery-img {
@@ -103,6 +104,7 @@
     font-style: italic;
     font-size: 1.6rem;
     margin-bottom: 3rem;
+    color: var(--secondary-color);
 }
 
 .form-group {
@@ -187,8 +189,58 @@
 @media (max-width: 800px) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
-    }
+}
 
+body         {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.main-content {
+    padding: 1.5rem;
+}
+
+.form-group button {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.form-group input {
+    font-size: 2rem;
+}
+
+.contact-form {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.contact-form legend {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+}
+
+.contact-form label {
+    font-size: 1.5rem;
+}
+
+
+p.grid-description {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.grid h3 {
+    font-size: 3rem;
+}
+
+.grid h3::before {
+    font-size: 5rem;
+    color: var(--secondary-color);
+}
 
 .gallery-img {
     width: 100%;
