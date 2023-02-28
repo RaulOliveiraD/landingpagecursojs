@@ -228,6 +228,9 @@ h2 {
     font-size: 1.5rem;
 }
 
+.form-grid {
+    align-items: center;
+}
 
 p.grid-description {
     font-size: 2rem;
