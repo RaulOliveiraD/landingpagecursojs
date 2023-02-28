@@ -216,6 +216,7 @@ h2 {
     font-size: 2rem;
     padding: 1rem 1rem;
     text-align: center;
+    align-items: center;
 }
 
 .contact-form legend {
